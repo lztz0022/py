@@ -1,16 +1,4 @@
-L=['tom','lisa','adam']
-for i in L:
-    print('%s, %s!' %('Hello',i))
-print('==============')
-a=0
-while a<3:
-    print('%s, %s!' %('Hello',L[a]))
-    a=a+1
-print('=============================')
-for b in range(3):
-    print('%s, %s!' %('Hello',L[b]))
-
-x=97
-while x<102:
-    print('%s %s' %('Hello,', chr(x)))
-    x=x+1
+n1=int(input('n1='))
+n2=int(input('n2='))
+print('n1=',n1,'=',hex(n1))
+print('%s%s%s%s' %('n2=',n2,'=',hex(n2)))
